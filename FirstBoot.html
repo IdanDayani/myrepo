@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+      
+  </body>
+  <!--- Navagition Bar --->
+  <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header"> <!--- Header--->
+          <a class="navbar-brand" href="#">Learn&Prove</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="active"><a href="#">New</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">More <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Text example</a></li>
+              <li><a href="#">Lecture</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+<div class="container">
+
+   <!--- label - add to contant--->
+   <div class="row">
+  <div class="col-md-5">
+  <h1>Lecturer Info : <span class="label label-default">New</span></h1>
+  <br>
+  </div>
+  </div> 
+
+  <!--- table--->
+  <div class="row">
+  <div class="col-md-10">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Profession</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>Math</td>
+        <td>40</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>Literature</td>
+        <td>58</td>
+        <td>john@example.com</td>
+        
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>Physics</td>
+        <td>62</td>
+        <td>july@example.com <span class="glyphicon glyphicon-print"></span></td>  <!--- Icon--->
+      </tr>
+    </tbody> 
+  </table>
+</div>
+</div>
+   
+  <!--- progress--->
+  <h3>Rating</h3>
+  <div class="row">
+  <div class="Rating-lecturer">
+        <div class="col-md-4">
+         Mary Moe :
+        <div class="progress" style="width:80%;">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:85%">
+              85% Success
+            </div>
+          </div>
+          </div>
+
+          <div class="col-md-4">
+          John Doe :
+          <div class="progress" style="width:80%;">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+              aria-valuemin="0" aria-valuemax="100" style="width:81%">
+                81% Success
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            July Dooley :
+            <div class="progress" style="width:80%;">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                aria-valuemin="0" aria-valuemax="100" style="width:78%">
+                  78% Success
+                </div>
+              </div>
+          </div>    
+  </div>
+  </div>
+
+   <div class="row">
+        <div class="col-md-4">
+                <img src="https://envato-shoebox-0.imgix.net/78e5/0181-7b0d-4a0b-a15a-8b04101475db/fullsize-076.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=25f61fb8f4ec66ca5203050132e632fc"
+                 class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+        </div>
+
+        <div class="col-md-4">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-da91883dff1c3ea9e9d9ad0388681289-c"
+                 class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+        </div>
+
+        <div class="col-md-4">
+                <img src="http://reflectorgsu.com/wp-content/uploads/2017/10/pro.jpg"
+                 class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+        </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <a href="#demoCollaspe1" class="btn btn-info" data-toggle="collapse">More info</a>
+        <p id="demoCollaspe1" class="collapse">
+          Mary Moe born in New-York in 1982 , and begin teach in "ODD" high-scholl .
+        </p>
+      </a> 
+    </div>
+
+    <div class="col-md-4">
+        <a href="#demoCollaspe2" class="btn btn-info" data-toggle="collapse"> More info</a>
+          <p id="demoCollaspe2" class="collapse">
+              John Doe born in Las-Vegas in 1969 , and begin teach in "Mekif A" high-scholl .
+          </p>
+        </a> 
+      </div>
+
+      <div class="col-md-4">
+          <a href="#demoCollaspe3" class="btn btn-info" data-toggle="collapse">More info</a>
+            <p id="demoCollaspe3" class="collapse">
+                July Dooley born in Kanada in 1974 , and begin teach in "LLdg" College.
+            </p>
+          </a> 
+        </div>
+  </div>
+  <br>
+  <br>
+
+    <!--- btn group---> 
+    <div class="row">
+        <div class="col-md-4">
+       <div class="btn-group">
+            <button type="button" class="btn btn-primary">Search</button>
+            <button type="button" class="btn btn-primary">View</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+              More <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu">
+                <li class="dropdown-header">User:</li> 
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li class="divider"></li>
+                <li><a href="#">About us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <br><br>
+
+  
+  <!--- Pager--->
+  <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+   
+</div>   
+</div>
+</html>
